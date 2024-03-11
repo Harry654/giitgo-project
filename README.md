@@ -29,7 +29,7 @@ We welcome contributions from developers of all skill levels. Whether it's fixin
 - Be respectful and constructive in your interactions with other contributors and maintainers.
 
 ## Feedback and Support
-If you have any feedback, suggestions, or encounter any issues while using Giitgo, please don't hesitate to [create an issue](https://github.com/yourusername/your-repo/issues) on this repository. We're continuously striving to improve the platform and your input is highly appreciated.
+If you have any feedback, suggestions, or encounter any issues while using Giitgo, please don't hesitate to [create an issue](https://github.com/harry654/giitgo-project/issues) on this repository. We're continuously striving to improve the platform and your input is highly appreciated.
 
 ## License
 This project is licensed under the [MIT License](LICENSE). Feel free to use, modify, and distribute the code for your own projects.
