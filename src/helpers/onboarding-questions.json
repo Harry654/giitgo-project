@@ -1,0 +1,176 @@
+[
+  {
+    "title": "What programming languages are you familiar with?",
+    "options": [
+      "JavaScript",
+      "Python",
+      "Java",
+      "PHP",
+      "C#",
+      "C++",
+      "Shell",
+      "Swift",
+      "TypeScript",
+      "C",
+      "R Programming Language",
+      "Ruby",
+      "SQL",
+      "Rust",
+      "Kotlin",
+      "Scala",
+      "Perl",
+      "Haskell",
+      "Elixir",
+      "Erlang"
+    ],
+    "option-type": "many",
+    "answer-key": "familiar-languages"
+  },
+  {
+    "title": "What are your areas of interest in software development?",
+    "options": [
+      "Web development",
+      "Mobile app development",
+      "Data science",
+      "Machine learning",
+      "Artificial intelligence",
+      "Game development",
+      "Embedded systems",
+      "Blockchain",
+      "Cloud computing",
+      "DevOps",
+      "Cybersecurity",
+      "UI/UX design"
+    ],
+    "option-type": "many",
+    "answer-key": "areas-of-interest"
+  },
+  {
+    "title": "Are you interested in contributing to specific types of projects?",
+    "options": [
+      "Open-source projects",
+      "Enterprise projects",
+      "Educational projects",
+      "Non-profit projects",
+      "Government projects",
+      "Startup projects"
+    ],
+    "option-type": "many",
+    "answer-key": "preferred-project-types"
+  },
+  {
+    "title": "Do you have any preferred frameworks or technologies you enjoy working with?",
+    "options": [
+      "React.js",
+      "Angular",
+      "Vue.js",
+      "Node.js",
+      "Django",
+      "Flask",
+      "Spring",
+      "ASP.NET",
+      "Express.js",
+      "Ruby on Rails",
+      "Laravel",
+      "TensorFlow",
+      "PyTorch",
+      "Keras",
+      "Unity",
+      "OpenGL",
+      "Bootstrap",
+      "Tailwind CSS",
+      "Sass",
+      "LESS"
+    ],
+    "option-type": "many",
+    "answer-key": "preferred-frameworks"
+  },
+  {
+    "title": "Are there any specific domains or industries you're interested in?",
+    "options": [
+      "Finance",
+      "Healthcare",
+      "E-commerce",
+      "Gaming",
+      "Education",
+      "Entertainment",
+      "Automotive",
+      "Aerospace",
+      "Telecommunications",
+      "Media",
+      "Social media",
+      "Travel",
+      "Real estate",
+      "Retail",
+      "Government",
+      "Non-profit"
+    ],
+    "option-type": "many",
+    "answer-key": "preferred-domains"
+  },
+  {
+    "title": "What level of experience do you have in software development?",
+    "options": ["Beginner", "Intermediate", "Advanced"],
+    "option-type": "one",
+    "answer-key": "level-of-experience"
+  },
+  {
+    "title": "Are there any specific project sizes or scopes you prefer working on?",
+    "options": ["Small", "Medium", "Large"],
+    "option-type": "many",
+    "answer-key": "preferred-project-size"
+  },
+  {
+    "title": "Do you have any particular project management methodologies you prefer?",
+    "options": [
+      "Agile",
+      "Scrum",
+      "Kanban",
+      "Waterfall",
+      "Lean",
+      "Extreme Programming (XP)"
+    ],
+    "option-type": "many",
+    "answer-key": "preferred-project-management-technologies"
+  },
+  {
+    "title": "Are there any specific platforms or tools you're already familiar with and would like to explore further?",
+    "options": [
+      "GitHub",
+      "GitLab",
+      "Bitbucket",
+      "Jira",
+      "Trello",
+      "Slack",
+      "Discord",
+      "Visual Studio Code",
+      "IntelliJ IDEA",
+      "PyCharm",
+      "Eclipse",
+      "NetBeans",
+      "Atom",
+      "Sublime Text"
+    ],
+    "option-type": "many",
+    "answer-key": "preferred-platforms"
+  },
+  {
+    "title": "Are there any specific repositories or projects you've been following or interested in contributing to?",
+    "options": ["Yes", "No"],
+    "option-type": "one",
+    "answer-key": "preferred-repositories"
+  },
+  {
+    "title": "What types of project licensing are you comfortable contributing to?",
+    "options": [
+      "MIT License",
+      "GNU General Public License (GPL)",
+      "Apache License",
+      "BSD License",
+      "Mozilla Public License",
+      "Proprietary License"
+    ],
+    "option-type": "many",
+    "answer-key": "preferred-liscences"
+  }
+]
