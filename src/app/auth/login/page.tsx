@@ -1,9 +1,10 @@
 import React from "react";
 import GithubButton from "../../../components/GithubButton";
 import LoginForm from "../../../components/LoginForm";
+import { auth } from "../../../lib/firebase/config";
+import Image from "next/image";
 
-export default function Home() {
- 
+export default function Login() {
   return (
     <div className="flex flex-wrap">
       <div className="flex w-full flex-col md:w-1/2">
@@ -11,6 +12,7 @@ export default function Home() {
           <p className="text-left text-xl font-bold">
             Welcome back, please enter your details.
           </p>
+          <p>Username: {auth.currentUser?.displayName}</p>
           <GithubButton />
           <div className="relative mt-8 flex h-px place-items-center bg-gray-200">
             <div className="absolute left-1/2 h-6 w-14 -translate-x-1/2 bg-white text-center text-sm text-gray-500">
@@ -42,9 +44,10 @@ export default function Home() {
           <p className="">Founder, Emogue</p>
           <p className="mb-7 text-sm opacity-70">Web Design Agency</p>
         </div>
-        <img
+        <Image
           className="-z-1 absolute top-0 h-full w-full object-cover opacity-90"
           src="https://images.unsplash.com/photo-1565301660306-29e08751cc53?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80"
+          alt=""
         />
       </div>
     </div>

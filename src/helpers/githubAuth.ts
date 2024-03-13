@@ -1,4 +1,4 @@
-import { GithubAuthProvider, signInWithPopup } from "firebase/auth";
+import { GithubAuthProvider, sendEmailVerification, signInWithPopup } from "firebase/auth";
 import { auth } from "@/lib/firebase/config";
 
 export const handleGithubLogin = () => {
@@ -7,14 +7,16 @@ export const handleGithubLogin = () => {
   signInWithPopup(auth, provider)
     .then((result) => {
       // This gives you a GitHub Access Token. You can use it to access the GitHub API.
-      const credential = GithubAuthProvider.credentialFromResult(result);
-      const token = credential?.accessToken;
+      // const credential = GithubAuthProvider.credentialFromResult(result);
+      // const token = credential?.accessToken;
 
       // The signed-in user info.
-      const user = result.user;
+      const {user} = result;
       console.log(user);
-      // IdP data available using getAdditionalUserInfo(result)
-      // ...
+
+      if(!user.emailVerified){
+        sendEmailVerification(user, {url: "https://giitgo.vercel.app"})
+      }
     })
     .catch((error) => {
       // Handle Errors here.

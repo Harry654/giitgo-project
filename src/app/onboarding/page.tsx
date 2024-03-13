@@ -4,7 +4,8 @@ import questions from "../../helpers/onboarding-questions.json";
 import Image from "next/image";
 import { IOnboardingAnswer } from "@/types";
 import { auth } from "../../lib/firebase/config";
-function page() {
+
+export default function Page() {
   const [currentQuestion, setCurrentQuestion] = useState<number>(0);
   const [answers, setAnswers] = useState<IOnboardingAnswer>({
     [questions[0]["answer-key"]]: [],
@@ -184,13 +185,12 @@ function page() {
             Learn More
           </a>
         </div>
-        <img
+        <Image
           className="ml-8 w-11/12 max-w-lg rounded-lg object-cover"
           src="/images/SoOmmtD2P6rjV76JvJTc6.png"
+          alt=""
         />
       </div>
     </div>
   );
 }
-
-export default page;
