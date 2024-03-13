@@ -13,11 +13,12 @@ function GithubButton() {
         className="mr-2 h-5"
         src="/images/github-mark.svg"
         alt="github-logo"
+        width={20}
+        height={20}
       />
       Log in with GitHub
     </button>
   );
-
 }
 
 export default GithubButton;
